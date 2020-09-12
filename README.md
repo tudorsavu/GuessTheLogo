@@ -3,4 +3,4 @@
 
 ![Menu screen](android1.jpg)
 
-
+![Game screen](android2.jpg)
