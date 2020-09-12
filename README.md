@@ -1,7 +1,6 @@
 # GuessTheLogo
-<h1>A small simple android guessing game.</h1>
+<h2>A small simple android guessing game.</h2>
 
-<h2>Menu screen</h2>
 ![Menu screen](android1.jpg)
 
 
