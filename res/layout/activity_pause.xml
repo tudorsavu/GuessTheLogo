@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/paused"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/pausedBIG"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="250dp"
+        android:id="@+id/resumeGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgpurple"
+        android:width="300dp"
+        android:height="80dp"
+        android:textSize="22sp"
+        android:text="@string/resume"
+        android:foreground="@drawable/ripple_effect"
+
+
+        />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/quitGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgpurple"
+        android:width="300dp"
+        android:height="80dp"
+        android:textSize="22sp"
+        android:text="@string/quit"
+        android:foreground="@drawable/ripple_effect"
+        />
+
+
+</LinearLayout>

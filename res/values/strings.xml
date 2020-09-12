@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GuessTheLogo</string>
+    <string name="guess_the_logo">Guess the logo!</string>
+    <string name="new_game">New game</string>
+    <string name="high_scores">High scores</string>
+    <string name="share">Share!</string>
+    <string name="facebook_app_id">3755537701188072</string>
+    <string name="facebook_login_protocol_scheme">fb3755537701188072</string>
+    <string name="highscores">Highscores</string>
+    <string name="back">Back</string>
+    <string name="answer">Answer:</string>
+    <string name="submit">submit</string>
+    <string name="pause">pause</string>
+    <string name="hint">Hint</string>
+    <string name="score_0">Score: 0</string>
+    <string name="skip">skip</string>
+    <string name="paused">paused.</string>
+    <string name="back_to_game">back to game</string>
+    <string name="quit">quit</string>
+    <string name="resume">resume</string>
+    <string name="pausedBIG">PAUSED.</string>
+</resources>

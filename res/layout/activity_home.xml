@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/applogo" />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/newGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgpurple"
+        android:width="300dp"
+        android:height="80dp"
+        android:textSize="22sp"
+        android:text="@string/new_game"
+        android:foreground="@drawable/ripple_effect"
+
+
+        />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/highScoresBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgpurple"
+        android:width="300dp"
+        android:height="80dp"
+        android:textSize="22sp"
+        android:text="@string/high_scores"
+        android:foreground="@drawable/ripple_effect"
+
+
+        />
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/socialShareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgpurple"
+        android:width="300dp"
+        android:height="80dp"
+        android:textSize="22sp"
+        android:text="@string/share"
+        android:foreground="@drawable/ripple_effect"
+
+        />
+
+</LinearLayout>
